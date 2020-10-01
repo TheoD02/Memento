@@ -1,0 +1,111 @@
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 3px 5px 3px 5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+div{
+    display: inline-table;
+}
+
+body {
+    background-color: #d2a253;
+}
+.conteneur{
+    background-color: #DD6;/*Jaune*/
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.categorie {
+    max-width: 30%;
+    min-width: 20%;
+    width: auto;
+    background-color: #aeaeae;
+    color: white;
+    border: 2px solid black;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    text-align: center;
+    display: inline-grid;
+    border-radius: 1em;
+}
+
+
+.categorie h2 {
+    color: black;
+    white-space: pre-line;
+    text-decoration: underline black;
+}
+
+.categorie p {
+    color: black;
+    white-space: pre-line;
+}
+
+.categorie2 {
+    background-color: #7285a0;
+    color: white;
+    width: auto;
+    border: 2px solid black;
+    margin: 15px 20px 15px 20px;
+    padding: 5px;
+    display: block;
+    border-radius: 1em;
+}
+
+.categorie h3 {
+    color: black;
+    white-space: pre-line;
+    text-decoration: underline black;
+}
+
+.categorie p {
+    color: black;
+    white-space: pre-line;
+}
+
+@media only screen and (max-width: 1024px) {
+    .categorie {
+        max-width: 30%;
+        min-width: 10%;
+        background-color: #aeaeae;
+        color: white;
+        border: 2px solid black;
+        margin: 15px 20px 15px 20px;
+        padding: 5px;
+        text-align: center;
+        position: center;
+    }
+    .categorie2 {
+        background-color: #7285a0;
+        color: white;
+        width: auto;
+        border: 2px solid black;
+        margin: 15px 20px 15px 20px;
+        padding: 5px;
+        display: block;
+    }
+}

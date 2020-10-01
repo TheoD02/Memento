@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <title>Mon Mémento</title>
+  </head>
+  <body>
+      <section>
+          <div class="conteneur">
+            <h1><i class="arrow right"></i>La ligne de commande<i class="arrow left"></i></h1>
+                  <div class="categorie">
+                        <h2 class="arondi">La commande 'LS' & Le déplacement entre dossiers</h2>
+                        <div class="categorie2">
+                            <h3>Afficher le manuel d'une commande (ici 'LS')</h3>
+                            <p>man ls</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Afficher les fichiers du dossier courant</h3>
+                            <p>ls</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Afficher les fichier & les fichiers caché du dossier courant</h3>
+                            <p>ls -a</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Lister les fichiers du dossier courant </h3>
+                            <p>ls -l</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Lister les fichiers & fichiers caché du dossier courant en version longue</h3>
+                            <p>ls -al</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Afficher le chemin d'accès du dossier courant</h3>
+                            <p>PWD</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Se deplacer dans les dossiers</h3>
+                            <p>cd</p>
+                            <p>cd .. -> retour en arrière dans le dossier parent de celui actuel</p>
+                            <p>cd Documents -> Pour aller dans le dossier Documents (doit être existant)</p>
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <h2>Listing & Gestion de packets</h2>
+                        <div class="categorie2">
+                            <h3>Afficher le manuel d'une commande (ici 'LS')</h3>
+                            <p>sudo -i (Path par defaut : ROOT)
+                                ou
+                                sudo -s (Path ou l'on est actuellement) -> Se login en tant qu'admin (su)</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Mettre à jour la listes des paquets</h3>
+                            <p>sudo apt update</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Mettre à jour les paquets</h3>
+                            <p>sudo apt upgrade</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Trouver tous les paquets contenant le mot XML</h3>
+                            <p>apt search XML</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Installer le paquet git</h3>
+                            <p>dpkg -i atom-amd64.deb</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Installer le paquet git</h3>
+                            <p>dpkg -i atom-amd64.deb</p>
+                        </div>
+                    </div>
+                    <div class="categorie">
+                        <h2>Gestion de dossier & de fichiers</h2>
+                        <div class="categorie2">
+                            <h3>Créer un dossier (ici : website)</h3>
+                            <p>mkdir website</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Créer un dossier & un sous-dossier en une ligne de commande</h3>
+                            <p>mkdir -p Memento/assets</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Créer les trois dossier dans le dossier assets</h3>
+                            <p>mkdir css  img js
+                                Pour créer un dossier avec espace utiliser un anti-slash pour echapper le caractère "\ " ou 'texte test'</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Créer un fichier</h3>
+                            <p>touch style.css</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Créer un fichier avec du texte dedans</h3>
+                            <p>cat 'texte' > index.html</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Editier un fichier</h3>
+                            <p>nano index.html</p>
+                        </div>
+                        <div class="categorie2">
+                            <h3>Déplacer ou renomée un fichier</h3>
+                            <p>mv ./style.css ./assets/css -> deplace le fichier style.css dans ./assets/css</p>
+                        </div>
+                    </div>
+                </div>
+      </section>
+    <pre><code></code></pre>
+  </body>
+</html>
